@@ -30,7 +30,7 @@ var  imgp =document.querySelectorAll(".iagem")
 
 })
 // Seleciona o botão e a div a ser convertida
-document.querySelector(".butao").addEventListener("click", function() {
+document.querySelector(".butao2").addEventListener("click", function() {
   const div = document.querySelector(".carta");
 
   // Usa html2canvas para capturar a div como imagem
