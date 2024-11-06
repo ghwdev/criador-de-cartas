@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>mudanca de cor</title>
+  </head>
+  <body>
+    <h1>criador de cartaz</h1>
+    <div class="carta">
+      <div class="area-da-carta">
+        <div class="aim">
+
+        <img class="iagem"
+          src="/tela-vazia-branca_1194-7555.avif"
+          alt=""
+        />
+      </div>
+        <div class="tudo">
+
+            <div class="vida">
+                <h5>vida:</h5><p class="vdi"></p>
+            </div>
+       
+            <h2 class="nome1">nome</h2>
+            <div class="mana">
+                <h5>mana:</h5><p class="mni"></p>
+            </div>
+    
+        </div>
+        <div class="elixir">
+          <p>elixir:</p>
+          <h4  class="elxi1"></h4>
+
+        </div>
+
+        <h5>descrição e habilidade:</h5>
+        <p class="descricao"></p>
+      </div>
+    </div>
+
+    <div class="formulario">
+        <input id="img"type="file" id="imageUpload" name="imageUpload" accept="image/*">
+<textarea class="nome"  placeholder="escreva um nome"></textarea>
+<input class="vidai" type="number" placeholder="ecreva sua vida">
+<input class="manai"type="number" placeholder="ecreva sua mana">
+<input class="elixi"type="number" placeholder="ecreva seu elixir">
+<textarea class="hd" placeholder="escreva  sua descrição e habilidade"></textarea>
+<button class="butao">gerar</button>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
+
