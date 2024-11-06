@@ -154,3 +154,11 @@ h1{font-size: 50px;}
     max-width: 35vw;
     max-height: 30vh;}
 }
+   .tudo{
+        margin-top: 30vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5%;
+    }
+}
